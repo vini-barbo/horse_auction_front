@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const ItensCard = () => {
     return (
         <section className="bg-white py-8">

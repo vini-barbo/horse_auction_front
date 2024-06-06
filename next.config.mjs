@@ -1,4 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+import { routerConfig } from './config/router.config.mjs'
+
+
+
+const nextConfig = {
+    async redirects() {
+        return routerConfig
+    }
+    
+};
 
 export default nextConfig;
