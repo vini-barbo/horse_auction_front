@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function register() {
+export default function registerPage() {
     return (
         <section className="bg-white dark:bg-gray-900">
             <div className="flex justify-center min-h-screen">
